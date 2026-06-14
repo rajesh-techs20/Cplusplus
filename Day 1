@@ -24,3 +24,23 @@ Inputs
       cout<<"College name is:"<<collegeName<<endl;
       return 0;
   }
+
+If Else
+
+#include<iostream>
+  using namespace std;
+  
+  int main(){
+      int marks;
+      
+      cout<<"Enter Marks:";
+      cin>>marks;
+      
+      if(marks>=35){
+          cout<<"Pass";
+      }
+      else{
+          cout<<"Fail";
+      }
+      return 0;
+  }
