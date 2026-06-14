@@ -66,3 +66,46 @@ int main(){
     }
     return 0;
 }
+
+LOOPS 
+
+#include<iostream>
+using namespace std;
+int main(){
+     int i;
+     for(i=0;i<=5;i++){
+            cout<<i<<endl;
+     }
+     return 0;
+}
+
+#OUTPUT
+0
+1
+2
+3
+4
+5
+
+in While Loop
+#include<iostream>
+using namespace std;
+int main(){
+    
+    int i;
+    while(i<=5){
+        cout<<i<<endl;
+        i++;
+    }
+    return 0;
+}
+
+#OUTPUT
+
+0
+1
+2
+3
+4
+5
+     
