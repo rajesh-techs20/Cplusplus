@@ -54,4 +54,7 @@ Prime
      
     return 0;
  }
-          
+
+OUTPUT
+Enter a number: 12345
+54321
