@@ -75,3 +75,12 @@ LARGEST ELEMENT IN ARRAY
     cout<<"Largest element in the array is:"<<largest;
     return 0;
  }
+
+OUTPUT
+Enter the number of eelements:6
+Enter the elements in to the array:1 5 4 10 7 5 
+
+Largest element
+Largest element in the array is:10
+
+=== Code Execution Successful ===
