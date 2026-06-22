@@ -30,3 +30,13 @@ int main(){
     cout<<"Second largest elements in the array:"<<secondlargest;
     return 0;
 }
+
+OUTPUT
+
+Enter the number of elements:4
+Enter elements:1 2 3 4
+
+Second largest elements
+Second largest elements in the array:3
+
+=== Code Execution Successful ===
