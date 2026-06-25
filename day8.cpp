@@ -21,3 +21,10 @@ AVERAGE OF ARRAY ELEMENTS
      return 0;
      
  }
+
+OUTPUT
+Enter the number of elements:5
+Enter elements:1 2 3 4 5
+Average of array elements:3
+
+=== Code Execution Successful ===
