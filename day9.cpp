@@ -62,3 +62,9 @@ LARGEST AND SMALLEST ELEMENT IN ARRAY
      
      return 0;
  }
+
+OUTPUT
+Enter the number of elements:4 
+Enter the elements in to array:1 2 3 4
+The largest elements is:4
+The smallest elements is:1
