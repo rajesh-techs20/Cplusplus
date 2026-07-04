@@ -78,3 +78,13 @@ int main() {
     }
     return 0;
 }
+
+OUTPUT
+Enter the number of rows:3
+Enter the number of columns:2
+Enter the elements of first array:1 2 3 4 5 6
+Enter the elements of second array:7 8 9 1 2 3
+Addition of two matrix:
+8 10 
+12 5 
+7 9 
