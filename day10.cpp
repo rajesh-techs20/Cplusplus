@@ -88,3 +88,36 @@ Addition of two matrix:
 8 10 
 12 5 
 7 9 
+    TRANSPOSE MATRIX
+
+#include<iostream>
+using namespace std;
+int main() {
+    int a[10][10],t[10][10],r,c,i,j;
+    
+    cout<<"Enter the number of rows:";
+    cin>>r;
+    
+    cout<<"Enter the number of columns: ";
+    cin>>c;
+    
+    cout<<"Enter the elements:";
+    for(i=0;i<r;i++){
+        for(j=0;j<c;j++){
+            cin>>a[i][j];
+        }
+    }
+    cout<<"Transpose of Matrix:\n";
+    for(i=0;i<r;i++){
+        for(j=0;j<c;j++){
+            t[j][i]=a[i][j];
+        }
+    }
+    for(i=0;i<r;i++){
+        for(j=0;j<r;j++){
+            cout<<t[i][j]<<" ";
+        }
+        cout<<endl;
+    }
+    return 0;
+}
