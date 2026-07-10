@@ -101,3 +101,13 @@ int main() {
     }
     return 0;
 }
+
+OUTPUT
+Enter the number of rows and columns of first matrix:2 3
+Enter the number of rows and columns of second matrix:3 2
+Enter the elements of first mastrix:1 2 3 4 5 6
+Enter the elements in to second matrix:7 8 9 10 11 12
+
+ Matrix multiplicatin of two given matrix:
+58 64 
+139 154 
