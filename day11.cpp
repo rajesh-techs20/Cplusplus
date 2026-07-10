@@ -40,3 +40,14 @@ int main() {
     }
     return 0;
 }
+
+OUTPUT
+Enter the number of rows:3
+Enter the number of columns:2
+Enter the elements in to first matrix:1 2 3 4 5 6
+Enter the elements in to second matrix:3 7 1 3 2 1
+
+substraction of two matrix
+-2 -5 
+2 1 
+3 5 
