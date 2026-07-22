@@ -80,3 +80,23 @@ int main()
 }
 Enter two numbers2 3
 Largest Number is:3
+
+    RECURSION
+     #include<iostream>
+ using namespace std;
+ void display(int n,int a)
+ {
+     if(n>a){
+         return;
+     }
+     cout<<n<<endl;
+     display(n+1,a);
+ }
+ int main() {
+     int a;
+     cout<<"Enter a num:";
+     cin>>a;
+     
+     display(1,a);
+     return 0;
+ }
