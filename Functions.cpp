@@ -108,3 +108,27 @@ Enter a num:5
 3
 4
 5
+    FACTORIAL USING RECURSION
+#include<iostream>
+ using namespace std;
+ 
+ int factorial(int n)
+ {
+     if(n==0||n==1){
+         return 1;
+     }
+     return n*factorial(n-1);
+ }
+ int main()
+ {
+     int a,result;
+     cout<<"Enter the number of terms:";
+     cin>>a;
+     result=factorial(a);
+     cout<<"Factorial:"<<result;
+     return 0;
+ }
+OUTPUT
+Enter the number of terms:5
+Factorial:120
+
