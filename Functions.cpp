@@ -132,3 +132,28 @@ OUTPUT
 Enter the number of terms:5
 Factorial:120
 
+    SUM OF FIRST NATURAL NUMBERS
+
+#include<iostream>
+ using namespace std;
+ 
+ int sum(int n)
+ {
+     if(n==0){
+         return 0;
+     }
+     return n+sum(n-1);
+ }
+ int main()
+ {
+     int a;
+     cout<<"Enter a Number:";
+     cin>>a;
+     cout<<"Sum of natural numbers:"<<sum(a);
+     return 0;
+ }
+OUTPUT
+Enter a Number:5
+Sum of natural numbers:15
+
+
