@@ -1,5 +1,20 @@
 #include<iostream>
 using namespace std;
+
+void display()
+{
+    cout<<"Hello World!";
+}
+int main() {
+    display();
+    return 0;
+}
+
+OUTPUT 
+Hello World!
+
+#include<iostream>
+using namespace std;
 void add()
 {
     int a,b;
