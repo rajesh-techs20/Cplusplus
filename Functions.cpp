@@ -31,3 +31,27 @@ int main()
 OUTUT
 Enter two numbers:2 3
 Sum:5
+
+LARGEST NUMBER 
+#include<iostream>
+using namespace std;
+void largest(int a,int b)
+{
+    if(a>b){
+        cout<<"Largest Number is:"<<a;
+    }
+    else {
+        cout<<"Largest Number is:"<<b;
+    }
+}
+int main() {
+    int x,y;
+    cout<<"Enter two numbers:";
+    cin>>x>>y;
+    
+    largest(x,y);
+    return 0;
+}
+OUTPUT 
+Enter two numbers:2 3
+Largest Number is:3
