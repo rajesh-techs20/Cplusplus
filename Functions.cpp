@@ -55,3 +55,28 @@ int main() {
 OUTPUT 
 Enter two numbers:2 3
 Largest Number is:3
+
+    WITH ARGUMENTS AND RETURN VALUE
+
+#include<iostream>
+using namespace std;
+
+int largest(int a, int b)
+{
+    if(a>b){
+        return a;
+    }
+    else{
+        return b;
+    }
+}
+int main()
+{
+    int x,y;
+    cout<<"Enter two numbers";
+    cin>>x>>y;
+    cout<<"Largest Number is:"<<largest(x,y);
+    return 0;
+}
+Enter two numbers2 3
+Largest Number is:3
