@@ -100,3 +100,11 @@ Largest Number is:3
      display(1,a);
      return 0;
  }
+
+OUTPUT 
+Enter a num:5
+1
+2
+3
+4
+5
