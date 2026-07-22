@@ -12,3 +12,7 @@ int main()
     add();
     return 0;
 }
+
+OUTUT
+Enter two numbers:2 3
+Sum:5
