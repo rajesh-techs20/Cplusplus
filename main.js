@@ -23,3 +23,8 @@ let companies =["Googfle","Microsoft"];
 
 companies.push("Amazon");
 console.log(companies);
+
+/*POP*/
+let companies =["Googfle","Microsoft","Amazon"];
+let removed = companies.pop();
+console.log(companies);
