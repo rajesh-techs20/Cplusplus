@@ -34,3 +34,11 @@ console.log(companies);
 let companies =["Googgle","Microsoft","Amazon"];
 console.log(companies.toString());
 OUTPUT Google,Microsoft,Amazon
+
+
+/*concat*/
+let a= [1,2,3];
+let b= [4,5,6];
+let c = a.concat(b);
+console.log(c)
+OUTPUT [1,2,3,4,5,6]
