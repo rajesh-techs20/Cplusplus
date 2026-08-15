@@ -16,3 +16,10 @@ for(let i=0; i<prices.length;i++){
     prices[i]=prices[i]*0.9
 }
 console.log(prices)
+
+
+/*PUSH*/
+let companies =["Googfle","Microsoft"];
+
+companies.push("Amazon");
+console.log(companies);
