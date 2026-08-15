@@ -6,3 +6,13 @@ for(let i=1;i<=n;i++){
     marks.push(number);
 }
 console.log(marks);
+
+
+offers on prices
+
+let prices = [225,167,870];
+
+for(let i=0; i<prices.length;i++){
+    prices[i]=prices[i]*0.9
+}
+console.log(prices)
