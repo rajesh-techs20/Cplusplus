@@ -28,3 +28,9 @@ console.log(companies);
 let companies =["Googfle","Microsoft","Amazon"];
 let removed = companies.pop();
 console.log(companies);
+
+
+/*tostring*/
+let companies =["Googgle","Microsoft","Amazon"];
+console.log(companies.toString());
+OUTPUT Google,Microsoft,Amazon
