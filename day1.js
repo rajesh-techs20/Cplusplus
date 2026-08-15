@@ -48,3 +48,8 @@ OUTPUT [1,2,3,4,5,6]
 let f =["Banana","Cherry"];
 f.unshift("Apple");
 console.log(f)
+
+/*SHIFT*/
+ let f =["Apple","Banana","Cherry"];
+f.shift();
+console.log(f)
