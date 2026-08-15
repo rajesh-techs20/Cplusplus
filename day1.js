@@ -42,3 +42,9 @@ let b= [4,5,6];
 let c = a.concat(b);
 console.log(c)
 OUTPUT [1,2,3,4,5,6]
+
+/*UNSHIFT*/
+/*ADD ELEMENT AT START*/
+let f =["Banana","Cherry"];
+f.unshift("Apple");
+console.log(f)
