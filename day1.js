@@ -53,3 +53,9 @@ console.log(f)
  let f =["Apple","Banana","Cherry"];
 f.shift();
 console.log(f)
+
+/*SPLICE*/
+ let f =["Apple","Banana","Cherry"];
+f.splice(2,0,"Orange")
+
+console.log(f)
