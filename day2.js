@@ -21,3 +21,15 @@ const countVowels=(str)=>{
     return count;
 
 }
+
+let array =[];
+let n=Number(prompt("Enter the number of elements:"));
+
+for(i=0;i<=n;i++){
+    let num = Number(prompt("Enter  a element:"));
+    array.push(num);
+};
+array.forEach((num) => {
+    console.log(num*num);
+});
+ 
